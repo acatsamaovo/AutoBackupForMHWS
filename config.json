@@ -1,0 +1,10 @@
+{
+    "backup_dir": "D:\\BackUp\\MHWS1",
+    "src_dir": "E:\\Steam\\userdata\\1218322048\\2246340\\remote\\win64_save",
+    "log_file": "backup_monitor.log",
+    "backup_interval": 600,
+    "check_interval": 10,
+    "MAX_LOG_LINES": 100,
+    "MAX_BACKUPS": 20,
+    "game_executable": "monsterhunterwilds.exe"
+}
