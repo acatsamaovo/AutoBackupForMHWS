@@ -176,3 +176,6 @@ cython_debug/
 # Ignore Logs
 *.log
 *.txt
+
+# Ignore EnvirSettings
+.vscode/
