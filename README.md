@@ -16,7 +16,7 @@
 ## 使用说明
 
 ### 1. 准备工作
-- 从release中下载zip压缩包
+- 从[release](https://github.com/acatsamaovo/AutoBackupForMHWS/releases/tag/v1.0.0)中下载zip压缩包
 - 将压缩包中的三个文件解压到同一目录（如 `D:\MHWS_Backup`）：
   - `CheckGameRunningWLog.exe`（主程序）
   - `TkinterGUI_zh_CN.exe`（配置工具）
@@ -88,7 +88,7 @@
 ## Usage Instructions
 
 ### 1. Preparation
-- Download the zip archive from the release.
+- Download the zip archive from the [release](https://github.com/acatsamaovo/AutoBackupForMHWS/releases/tag/v1.0.0).
 - Extract the three files from the archive to the same directory (e.g., `D:\MHWS_Backup`):
   - `CheckGameRunningWLog.exe` (Main program)
   - `TkinterGUI_en_US.exe` (Configuration tool)
