@@ -4,8 +4,8 @@
 ## 简介
 本工具因为作者近一百小时的游戏存档坏档，上网搜索半天无果只能重开新档白忙活而红温编写，用于自动备份《怪物猎人：荒野》的游戏存档（同时支持自定义以对其它游戏存档进行备份、应用工作成果留档，详情可在下方配置工具页面查看）。通过Windows自带的配置任务计划程序，工具可伴随系统启动自动在后台运行，检测游戏（程序）启动并自动备份存档。目前只支持Windows系统。
 
-## Introduction
-**(For instructions in English, please scroll to the bottom half of the page.)**This tool was developed by the author after losing nearly 100 hours of game progress due to corrupted save files, with no solution found online, leading to the frustration of starting over. It is designed to automatically back up save files for *Monster Hunter: Wilds* (and can be customized to back up save files for other games or work-related files—details can be found in the configuration tool section below). By using Windows' built-in Task Scheduler, the tool can run automatically in the background upon system startup, detecting when the game (or program) is launched and automatically backing up the save files. Currently, only Windows systems are supported.
+## Introduction (For instructions in English, please scroll to the bottom half of the page.)
+This tool was developed by the author after losing nearly 100 hours of game progress due to corrupted save files, with no solution found online, leading to the frustration of starting over. It is designed to automatically back up save files for *Monster Hunter: Wilds* (and can be customized to back up save files for other games or work-related files—details can be found in the configuration tool section below). By using Windows' built-in Task Scheduler, the tool can run automatically in the background upon system startup, detecting when the game (or program) is launched and automatically backing up the save files. Currently, only Windows systems are supported.
 
 ## 功能
 - **自动备份**：检测游戏运行状态，自动备份存档文件。
