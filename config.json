@@ -6,5 +6,6 @@
     "check_interval": 10,
     "MAX_LOG_LINES": 100,
     "MAX_BACKUPS": 20,
-    "game_executable": "monsterhunterwilds.exe"
+    "game_executable": "monsterhunterwilds.exe",
+    "patterns": ["data00-*.bin", "data00*Slot.bin"]
 }

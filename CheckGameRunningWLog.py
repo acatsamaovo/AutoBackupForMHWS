@@ -25,8 +25,8 @@ else:
 # Configuration
 exe_dir = os.path.dirname(sys.executable)
 log_file = os.path.join(exe_dir, config.get("log_file", "backup_monitor.log"))
-backup_dir = config.get("backup_dir", r"D:\\BackUp\\MHWS")
-src_dir = config.get("src_dir", r"E:\\Steam\\userdata\\1218322048\\2246340\\remote\\win64_save")
+backup_dir = config.get("backup_dir", r"D:\\EXAMPLE")
+src_dir = config.get("src_dir", r"E:\\Steam\\userdata\\EXAMPLE\\2246340\\remote\\win64_save")
 backup_interval = config.get("backup_interval", 600)
 check_interval = config.get("check_interval", 10)
 MAX_LOG_LINES = config.get("MAX_LOG_LINES", 100)
