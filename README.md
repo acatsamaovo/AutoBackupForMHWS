@@ -1,3 +1,30 @@
-# AutoBackupForMHWS
-Create backups for *Monster Hunter Wilds* (or any other game or even any application that generates files).
-|为Monster Hunter Wilds(或你希望的其它游戏，甚至其它会创建文件的应用程序)创建备份
+# AutoBackupForMHWS 
+
+# MHWS 自动备份工具
+
+## 使用说明
+
+### 1. 准备工作
+- 将 `CheckGameRunningWLog.exe`、`config.json` 和 `StopBackup.exe` 解压到同一目录（如 `D:\MHWS_Backup`）。
+- 确保目录路径不包含中文或特殊字符。
+
+### 2. 配置任务计划程序
+1. 打开 **任务计划程序**。
+2. 创建基本任务：
+   - 名称：`MHWS自动备份`
+   - 触发器：**当用户登录时**
+   - 操作：**启动程序**，选择 `CheckGameRunningWLog.exe`，起始于程序所在目录。
+3. 高级设置：
+   - 勾选 **不管用户是否登录都要运行** 和 **使用最高权限运行**。
+   - 在 **设置** 中勾选 **不启动新实例**。
+
+### 3. 测试任务计划
+- 手动运行任务，检查程序是否正常启动。
+- 重启电脑，确认程序是否自动启动。
+
+### 4. 终止程序（可选）
+- 双击运行 `StopBackup.exe`，程序会在 10 秒内关闭。
+
+### 注意事项
+- 确保程序所在目录有写入权限。
+- 如果程序未启动，请检查 `backup_monitor.log` 日志文件。

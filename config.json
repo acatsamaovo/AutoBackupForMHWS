@@ -1,5 +1,5 @@
 {
-    "backup_dir": "D:\\BackUp\\MHWS1",
+    "backup_dir": "D:\\BackUp\\MHWS",
     "src_dir": "E:\\Steam\\userdata\\1218322048\\2246340\\remote\\win64_save",
     "log_file": "backup_monitor.log",
     "backup_interval": 600,
